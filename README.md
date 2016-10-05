@@ -4,6 +4,6 @@ Routing means navigating to different pages in our app. In AngularJS, we can use
 We need:
 
 1. include angular-route.js.
-  < script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></ script>
+  - < script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></ script>
 2. add ngRoute as a dependency in the app. 
-  var app = angular.module("myApp", ["ngRoute"]);
+  - var app = angular.module("myApp", ["ngRoute"]);
