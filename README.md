@@ -21,5 +21,6 @@ in each method, we can
 The container for routing in index.html: ng-view directive.(3 ways)
 < div ng-view>< /div>
 < ng-view></ng-view>
-< div class="ng-view"></div>
+< div class="ng-view">< /div>
+Apps can only have one ng-view directive to hold all views.
 
