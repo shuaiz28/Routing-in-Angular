@@ -7,3 +7,13 @@ We need:
   - < script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></ script>
 2. add ngRoute as a dependency in the app. 
   - var app = angular.module("myApp", ["ngRoute"]);
+  
+ngRoute module provide $routeProvider, which is used to configure different routes in the app. It provides several methods:
+
+1. .when()
+2. .otherwise()
+
+in each method, we can
+
+1. templateUrl: define what page to dispaly.
+2. controller: define a controller for each view.
