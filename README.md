@@ -17,3 +17,9 @@ in each method, we can
 
 1. templateUrl: define what page to dispaly.
 2. controller: define a controller for each view.
+
+The container for routing in index.html: ng-view directive.(3 ways)
+<div ng-view></div>
+<ng-view></ng-view>
+<div class="ng-view"></div>
+
